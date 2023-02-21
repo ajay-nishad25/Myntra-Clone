@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="icon" type="image/x-icon" href="Image/logo-myntra.png">
+    <link rel="stylesheet" href="CSS_folder/signup.css">
+
+</head>
+<body>
+
+	<!-- Navigation start here-->
+
+    <nav class="navigation" style="padding: 1px;">
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="brand-image" src="Image/logo-myntra.png" alt="myntra-logo" width="60px" height="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">MEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KIDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME & LIVING</a>
+                        </li>
+                        <li class="nav-item">   
+                            <a class="nav-link" href="#">BEAUTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">STUDIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">UPCOMING</a>
+                        </li>
+                    </ul>
+
+                    <div class="search">
+                        <input id="search-bar" type="text" placeholder="Search for products, brands and more" name="search" style=" width: 600px;">
+                        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="cotainer" style="margin-top: 20px;">
+                        <div class="row" style="padding:2%; margin-left: 40px;">
+                            <div class="col col-lg-2 profile-div " style="text-align: center; margin-left: 17px; cursor: pointer;">
+                                <i class="fa-solid fa-user" style="display: block; color:#15151560;"></i>
+                                <p style="font-size: 0.9rem; font-weight: bold; color:#151515dd;">Profile</p>
+                            </div>
+                            <div class="col col-lg-2 wishlist-div" style="text-align: center; margin-left: 47px; cursor: pointer;">
+                                <i class="fa-solid fa-heart" style="display: block; color:#15151560;"></i>
+                                <p style="font-size: 0.9rem; font-weight: bold; color:#151515dd;">Wishlist</p>
+                            </div>
+                            <div class="col col-lg-2 bag-div" style="text-align: center; margin-left: 47px; cursor: pointer;">
+                                <i class="fa-solid fa-bag-shopping" style="display: block; color:#15151560;"></i>
+                                <p style="font-size: 0.9rem; font-weight: bold; color:#151515dd;">Bag</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+    </nav>
+
+
+	<!-- Navigation ends here -->
+
+    <section class="body">
+
+        <div class="container">
+            <div class="row image-row">
+                <img class = "login-page-image" src="Image/login-page.jpeg" alt="login-page-image"  >
+            </div>
+            <div class="row">
+                <form>
+                    <h1>Signup</h1>
+                    <input type="text" id="username" name="username" placeholder="Enter Name">
+                    <input type="text" id="username" name="username" placeholder="Enter Mobile no*">
+                    <input type="text" id="username" name="username" placeholder="Enter Email">
+                    <input type="password" id="password" name="password" placeholder="Create password">
+                    <p>By continuing, I agree to the<strong>Terms of Use</strong>  and <strong>privacy policy</strong> </p>
+                    <input type="submit" value="SIGNUP">
+                    <div class="register">
+                        <p>Already have an account <strong class="login-btn" style="cursor: pointer;">Login Here</strong></p>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+
+    </section>
+	
+
+
+    <!-- Bootstrap CDN --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/544da7f505.js" crossorigin="anonymous"></script>
+    <script src="Javascript_folder/signup.js"></script>
+</body>
+</html> 

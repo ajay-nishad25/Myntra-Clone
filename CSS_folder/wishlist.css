@@ -1,0 +1,167 @@
+
+
+/* Navigation start here */
+
+.navigation{
+    background-color: white;
+    box-shadow: 5px 10px 8px #88888815;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.search{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #696e79;
+    position: relative;
+    margin-top: 20px;
+}
+
+#search-bar{
+    display: inline-block;
+    width: 95%;
+    height: 10px;
+    line-height: 24px;
+    padding: 1.3rem;
+    padding-left: 3rem;
+    background-color: #f5f5f6;
+    border: none;
+    border-radius: 0.6rem;
+    color: #696e79;
+    letter-spacing: 0.5px;
+} 
+
+#search-bar:focus{
+    background-color:white;
+    outline: none;
+    border: 1px solid rgba(226, 226, 226, 0.819);
+}
+
+#search-icon{
+    position: absolute;
+    left: 1rem;
+    top: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none
+}
+
+
+/* Navigation ends here */
+
+
+
+
+.container1 {
+	margin: 10% auto;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0;
+	max-width: 450px;
+}
+
+
+
+h1{
+	text-align: center;
+	color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #010101c9;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+
+button{
+	background-color: #ff3f6c;
+	color:  white;
+	padding: 10px;
+	border: solid;
+	border-radius: 5px;
+	cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+	background-color: #ff5982;
+}
+
+
+
+
+
+
+/* Footer */
+.footer{
+    margin-top: 3.5%;
+    background-color: rgba(18, 18, 18, 0.029);
+    padding: 3%;
+}
+
+.footer-li{
+    list-style: none;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.online-shopping-div{
+    display: inline-block;
+}
+
+.customer-policies-div{
+    display: inline-block;
+}
+
+.experience-myntra-on-mobile-div{
+    display: inline-block;
+}
+
+.popular-search-li{
+    list-style: none;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+/* Common-footer-start */
+
+.common-text-color-ul-li{
+    color: #88888890;
+}
+
+.common-text-color-ul{
+    color: rgba(0, 0, 0, 0.656);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+/* Common-footer-end */
+
+
+
+

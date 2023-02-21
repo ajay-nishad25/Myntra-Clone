@@ -9,3 +9,4 @@ Currently i have hosted this site on netlify.com
 
 # Resources
 Except image i have uploaded every thing. You can download images from the given link 
+https://mega.nz/folder/OOIwRDYA#xrL2nphrQw_-0OpeaKtBfg
